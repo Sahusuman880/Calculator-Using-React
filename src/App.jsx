@@ -51,6 +51,7 @@ function App() {
 
   return (
     <center>
+      <h1>Calculator Uisng React.js</h1>
       <div id="calculator">
         <Display displayValue={displayValue} />
         <ButtonsContainer buttonClick={buttonClick} />
